@@ -1,0 +1,21 @@
+/* Untuk semua yang menggunakan tag legend akan diatur seperti di dalam kurung */
+legend{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e9eceb;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Untuk semua yang menggunakan tag fieldset akan diatur seperti di dalam kurung */
+fieldset{
+    background-color: #e9eceb;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+/* Untuk semua yang menggunakan tag table akan diatur seperti di dalam kurung */
+table{
+    margin-top: 20px;
+}
