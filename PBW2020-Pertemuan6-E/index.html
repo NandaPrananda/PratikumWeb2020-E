@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Kalkulator</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+ </head>
+ <body>
+  <div id="calculator">
+   <div id="result">
+    <input type="text" id="output">
+     <div id="keyboard">
+      <button class="operator" onclick="clean()" >C</button>
+      <button class="operator" onclick="backspace()" >DEL</button>
+      <button class="operator" onclick="percent()" >%</button>
+      <button class="operator" onclick="view('/')" >&#247;</button>
+      <button class="number" onclick="view('7')" >7</button>
+      <button class="number" onclick="view('8')" >8</button>
+      <button class="number" onclick="view('9')" >9</button>
+      <button class="operator" onclick="view('*')" >&times;</button>
+      <button class="number" onclick="view('4')" >4</button>
+      <button class="number" onclick="view('5')" >5</button>
+      <button class="number" onclick="view('6')" >6</button>
+      <button class="operator" onclick="view('-')" >-</button>
+      <button class="number" onclick="view('1')" >1</button>
+      <button class="number" onclick="view('2')" >2</button>
+      <button class="number" onclick="view('3')" >3</button>
+      <button class="operator" onclick="view('+')" >+</button>
+      <button class="empty" onclick="view('.')" >.</button>
+      <button class="number" onclick="view('0')" >0</button>
+      <button class="operator" onclick="square()">^2</button>
+      <button class="operator" onclick="equal()">=</button>
+     </div>
+   </div>
+  </div>
+
+  <script src="assets/kalkulator.js"></script>
+ </body>
+</html>
